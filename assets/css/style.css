@@ -4,9 +4,18 @@ body {
 	background: url(../img/greyBG.png);
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover, a:visited, a:active {
+	text-decoration: underline;
+}
+
 p {
 	margin-left: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	text-align: center;
 }
 
@@ -31,6 +40,13 @@ button {
 
 button:active {
 	box-shadow: none;
+}
+
+footer {
+	text-align: center;
+}
+footer p {
+	font-size: 20px;
 }
 
 .sRow {
@@ -128,9 +144,7 @@ button:active {
 	border-radius: 0px 0px 0px 1000px;
 	border: 13px solid #33383a;
 	cursor: pointer;
-
 }
-
 
 .blue {
 	background: #009199;
@@ -182,7 +196,7 @@ button:active {
 	position: relative;
 	width: 600px;
 	height: 600px;
-	margin: 40px auto;
+	margin: 40px auto 10px auto;
 	padding: 0px;
 	border: 10px solid #33383a;
 	border-radius: 100%;
@@ -192,15 +206,15 @@ button:active {
 }
 
 #sControls {
-	  background: #e1e6e8;
-	  position: absolute;
-    width: 230px;
-    height: 230px;
-    border-radius: 100%;
-    top: 49.5%;
-    left: 49%;
-    margin: -122px 0 0 -122px;
-    border: 13px solid #33383a;
+  background: #e1e6e8;
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+  top: 49.5%;
+  left: 49%;
+  margin: -122px 0 0 -122px;
+  border: 13px solid #33383a;
 }
 
 #trade {
@@ -225,18 +239,17 @@ button:active {
 	border: 3px solid #211f20;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
  p {
-
- 	font-size: 40px;
+ 	font-size: 22px;
  	margin-left: 12px;
  	margin-bottom: 0px;
  }
 
 span {
- 	font-size: 12px;
+ 	font-size: 10px;
  }
-  
+
 .green {
 	background: #11a067;
 	display: inline-block;
@@ -327,9 +340,7 @@ span {
 	border-radius: 0px 0px 0px 1000px;
 	border: 13px solid #33383a;
 	cursor: pointer;
-
 }
-
 
 .blue {
 	background: #009199;
@@ -370,20 +381,20 @@ span {
 
 #gameContainer {
   max-width: 360px;
-   height: 360px;
-   font-size: 12px
+  height: 360px;
+  font-size: 12px
 }
 
 #sControls {
-	  background: #e1e6e8;
-	  position: absolute;
-    width:	170px;
-    height: 170px;
-    border-radius: 100%;
-    top: 57%;
-    left: 56%;
-    margin: -122px 0 0 -122px;
-    border: 13px solid #33383a;
+  background: #e1e6e8;
+  position: absolute;
+  width:	170px;
+  height: 170px;
+  border-radius: 100%;
+  top: 57%;
+  left: 56%;
+  margin: -122px 0 0 -122px;
+  border: 13px solid #33383a;
 }
 
 #counter {
@@ -409,4 +420,3 @@ span {
 	padding: 0px;
 	line-height: 30px;
 }
-
