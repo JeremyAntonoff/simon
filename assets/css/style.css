@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
 body {
 	margin: 0px;
-	padding: 0px;
+	padding: 75px 0px 0px 0px;
 	background: url(../img/greyBG.png);
+	font-family: 'Baloo 2', cursive;
 }
-
 a {
 	text-decoration: none;
 	color: white;
@@ -15,7 +16,7 @@ a:hover, a:visited, a:active {
 
 p {
 	margin-left: 30px;
-	margin-bottom: 0px;
+	margin-bottom: -20px;
 	text-align: center;
 }
 
@@ -43,6 +44,7 @@ button:active {
 }
 
 footer {
+	color: lightgrey;
 	text-align: center;
 }
 footer p {
@@ -54,126 +56,76 @@ footer p {
 	width: 100%;
 }
 
-.green {
-	background: #11a067;
+.game-button {
 	display: inline-block;
 	width: 272px;
 	height: 272px;
-	border-radius: 1000px 0px 0px 0px;
 	border: 13px solid #33383a;
 	cursor: pointer;
+}
+
+
+.green {
+	border-radius: 1000px 0px 0px 0px;
+	background: #11a067;
 }
 
 .green:active {
 	background: #19e895;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
-	border-radius: 1000px 0px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
+
 }
 
 .gHighlight {
 	background: #19e895;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
-	border-radius: 1000px 0px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
+
 }
 
 .red {
-	background: #ad2727;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
 	border-radius: 0px 1000px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
+	background: #ad2727;
 }
 
 .red:active {
 	background: #ff3838;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
-	border-radius: 0px 1000px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
+
 }
 
 .rHighlight {
 	background: #ff3838;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
-	border-radius: 0px 1000px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
 }
 
 
 .yellow{
-	background: #b2af00;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
 	border-radius: 0px 0px 0px 1000px;
-	border: 13px solid #33383a;
-	cursor: pointer;
+	background: #b2af00;
+
 }
 
 .yellow:active {
 	background: #cefc00;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
-	border-radius: 0px 0px 0px 1000px;
-	border: 13px solid #33383a;
-	cursor: pointer;
+
 
 }
 
 .yHighlight {
 	background: #cefc00;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
-	border-radius: 0px 0px 0px 1000px;
-	border: 13px solid #33383a;
-	cursor: pointer;
+
 }
 
 .blue {
-	background: #009199;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
-	border: 13px solid #33383a;
 	border-radius: 0px 0px 1000px 0px;
-	cursor: pointer;
+	background: #009199;
+
 }
 
 .blue:active {
 	background: #02effc;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
-	border: 13px solid #33383a;
-	border-radius: 0px 0px 1000px 0px;
-	cursor: pointer;
+
 }
 
 .bHighlight {
 	background: #02effc;
-	display: inline-block;
-	width: 272px;
-	height: 272px;
-	border: 13px solid #33383a;
-	border-radius: 0px 0px 1000px 0px;
-	cursor: pointer;
+
 }
 
 .sContent {
@@ -220,7 +172,6 @@ footer p {
 #trade {
 	font-size: 15px;
 	position: relative;
-	top: -15px;
 }
 
 #start {
@@ -232,7 +183,7 @@ footer p {
 	font-size: 18px;
 	color: #a50000;
 	line-height: 38px;
-	margin: 15px auto;
+	margin: 0px auto;
 	width: 130px;
 	height: 50px;
 	border-radius: 5% 5% 50% 50%;
@@ -242,135 +193,21 @@ footer p {
 @media only screen and (max-width: 600px) {
  p {
  	font-size: 22px;
- 	margin-left: 12px;
- 	margin-bottom: 0px;
+
  }
 
 span {
  	font-size: 10px;
  }
 
-.green {
-	background: #11a067;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border-radius: 1000px 0px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
-}
-
-.green:active {
-	background: #19e895;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border-radius: 1000px 0px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
-}
-
-.gHighlight {
-	background: #19e895;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border-radius: 1000px 0px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
-}
-
-.red {
-	background: #ad2727;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border-radius: 0px 1000px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
-}
-
-.red:active {
-	background: #ff3838;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border-radius: 0px 1000px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
-}
-
-.rHighlight {
-	background: #ff3838;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border-radius: 0px 1000px 0px 0px;
-	border: 13px solid #33383a;
-	cursor: pointer;
-}
-
-
-.yellow{
-	background: #b2af00;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border-radius: 0px 0px 0px 1000px;
-	border: 13px solid #33383a;
-	cursor: pointer;
-}
-
-.yellow:active {
-	background: #cefc00;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border-radius: 0px 0px 0px 1000px;
-	border: 13px solid #33383a;
-	cursor: pointer;
-
-}
-
-.yHighlight {
-	background: #cefc00;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border-radius: 0px 0px 0px 1000px;
-	border: 13px solid #33383a;
-	cursor: pointer;
-}
-
-.blue {
-	background: #009199;
+ .game-button {
 	display: inline-block;
 	width: 152px;
 	height: 152px;
 	border: 13px solid #33383a;
-	border-radius: 0px 0px 1000px 0px;
 	cursor: pointer;
-}
+ }
 
-.blue:active {
-	background: #02effc;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border: 13px solid #33383a;
-	border-radius: 0px 0px 1000px 0px;
-	cursor: pointer;
-}
-
-.bHighlight {
-	background: #02effc;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	border: 13px solid #33383a;
-	border-radius: 0px 0px 1000px 0px;
-	cursor: pointer;
-}
 
 .sContent {
 	text-align: center;
@@ -401,7 +238,6 @@ span {
 	background: #2b070d;
 	font-size: 12px;
 	color: #a50000;
-	margin-top: 8px auto;
 	padding: 0px;
 	width: 90px;
 	height: 30px;
